@@ -107,7 +107,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background: linear-gradient(to right,rgb(0,0,0),rgb(117,116,121));	
+	background: linear-gradient(to right,rgb(0,0,0),rgb(117,116,121));
 	border-radius: 0px;
 }
 .navbar-custom .navbar-brand {
@@ -245,7 +245,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	color: #E087C7;
 }
 #about img {
-	float: right;
+	float: left;
 }
 #about p {
 	margin-top: 20px;
@@ -283,8 +283,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #skills li{
 	color: white;
 	font-size: 20px;
-	position: relative; 
-margin-left:54px; 
+	position: relative;
+margin-left:54px;
 display: block;
 }
 .icono{
@@ -551,25 +551,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 
 
 /* Media Queries */
-@media (min-width:360px) and (max-width:767px){	
+@media (min-width:360px) and (max-width:767px){
 
 	.navbar-custom .nav li a  {
 		font-size: 13px;
 		margin-left: -30px;
 		margin-right: 10px;
 	}
-	
+
 	.logo{
 		width: 11%;
 		height: auto;
 		margin-left: -41px;
 	}
-	
+
 	.intro {
 		padding: 0;
 		color: #E087C7;
 	}
-	
+
 	.intro H1 {
 		font-family: 'Kalam';
 		font-size: 30px;
@@ -591,7 +591,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 		padding-top: 47px;
 		padding-bottom: 150px;
 	}
-	
+
 	#contact h2 {
 		font-family: 'Kalam';
 		color: #E087C7;
