@@ -107,7 +107,7 @@ var typed = $(".typed");
 
   $(function() {
     typed.typed({
-      strings: ["Kary Quezada", "Ux Designer"],
+      strings: ["Kary Quezada", "Ux Researcher"],
       typeSpeed: 100,
       loop: true,
     });
